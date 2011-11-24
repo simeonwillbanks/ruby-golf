@@ -1,9 +1,9 @@
 def fizzbuzz(i)
-  if i % 15 == 0
+  if i%15<1
     'FizzBuzz'
-  elsif i % 5 == 0
+  elsif i%5<1
     'Buzz'
-  elsif i % 3 == 0
+  elsif i%3<1
     'Fizz'
   else
     i
