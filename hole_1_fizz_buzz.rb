@@ -1,11 +1,6 @@
 def fizzbuzz(i)
-  if i%15<1
-    'FizzBuzz'
-  elsif i%5<1
-    'Buzz'
-  elsif i%3<1
-    'Fizz'
-  else
-    i
-  end
+  return'FizzBuzz'if i%15<1
+  return'Buzz'if i%5<1
+  return'Fizz'if i%3<1
+  i
 end
