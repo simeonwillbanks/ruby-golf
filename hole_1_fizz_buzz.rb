@@ -1,6 +1,4 @@
 def fizzbuzz(i)
-  return'FizzBuzz'if i%15<1
-  return'Buzz'if i%5<1
-  return'Fizz'if i%3<1
+  {FizzBuzz:15,Buzz:5,Fizz:3}.each{|k,v|return k.to_s if i%v<1}
   i
 end
