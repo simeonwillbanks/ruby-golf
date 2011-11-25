@@ -12,7 +12,7 @@ class TestHole2CaesarCipher < MiniTest::Unit::TestCase
   end
 
   def test_negative_shift_a
-    assert_equal 'simeon', caeser('rgldnm', -1)
+    assert_equal 'simeon', caeser('tjnfpo', -1)
   end
 
   def test_negative_shift_b
