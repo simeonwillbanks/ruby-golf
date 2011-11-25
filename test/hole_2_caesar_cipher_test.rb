@@ -27,4 +27,12 @@ class TestHole2CaesarCipher < MiniTest::Unit::TestCase
     assert_equal 'yoltk', caeser('brown', -3)
   end
 
+  def test_mega_positive_shift_wrap
+    assert_equal 'ebip', caeser('axel', 264) 
+  end
+
+  def test_mega_negative_shift_wrap
+    assert_equal 'yoltk', caeser('brown', -263)
+  end
+
 end
