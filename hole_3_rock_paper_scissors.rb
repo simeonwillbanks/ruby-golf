@@ -3,7 +3,7 @@
 # Scissors > Paper
 def play(p, c)
   m = %w(Paper Rock Scissors)
-  c = m.sample if c.nil?
+  c ||= m.sample
   "#{c}," + %w(Lose Win Draw)[
     if c == p
       2
