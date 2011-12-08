@@ -1,4 +1,4 @@
-def caeser(s, i)
+def caesar(s, i)
   alphabet = ('a'..'z').to_a
   index = -> shift {
     if shift > 25
